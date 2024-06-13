@@ -1,0 +1,40 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+.HEADER {
+    background-color: #F078C7;
+    border: 3px solid black;
+    width: 100%;
+    height: 138px;
+    text-align: center;
+}
+.NAVBAR{
+    background-color: #CF3EE7;
+    border-right: 3px solid black;
+    width: 332px;
+    height: 638px;
+    text-align: center;
+    float: left;
+}
+.MAIN{
+    background-color: #FACAEA;
+    border: 3px solid black;
+    width: 1247px;
+    height: 638px;
+    text-align: center;
+    float: right, 193px;
+
+
+}
+
+.FOOTER{
+    background-color: #303030;
+    border: 3px solid black;
+    color: #fff;
+    width: 100%;
+    height: 86px;
+    text-align: center;
+
+}

@@ -1,0 +1,197 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(227, 112, 210);
+    color: #fff;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    padding: 15px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #18181860;
+}
+
+/* Menu Toggle Button for Mobile */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links li {
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 275px;
+    padding: 15px 0;
+   
+}
+
+.img {
+    width: 300px;
+    height: 170px;
+    margin-top: 20px;
+}
+
+.img1{
+    width: 400px;
+    height: 170px;
+    margin-top: 20px;
+
+}
+
+.img2{
+    width:300px;
+    height: 190px;
+    margin-top: 50px;
+}
+ .img3{
+    width: 200px;
+    height: 170px;
+    margin-top: 20px;
+    
+ }
+
+ .img4{
+    width: 200px;
+    height: 170px;
+    margin-top: 20px;
+ }
+
+.texto {
+    text-align: justify;
+    margin: 10px 10px;
+    font-size: 16px;
+    
+}
+
+.texto h1,h5{
+    text-align: center;
+}
+
+.texto1 {
+    margin-top: 50px;
+    text-align: justify;
+    margin: 20px 20px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.texto2{
+    margin-top: 20px;
+    text-align: justify;
+    margin: 10px 150px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.texto3{
+    margin-top: 50px;
+    text-align: justify;
+    margin: 5px 5px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.paragrafo-arduino{
+    width: 500px;
+}
+
+
+.botão {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 5px;
+    width: 98%;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #e73ec0;
+    color: white;
+    overflow: hidden;
+    margin-left: 1%;
+}
